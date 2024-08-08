@@ -1,0 +1,10 @@
+[package]
+name = "sing_ribet"
+version = "0.1.0"
+edition = "2021"
+description = "v2ray to sing-box config converter"
+repository = "https://github.com/iyarivky/sing-ribet/"
+
+[dependencies]
+clap = { version = "4.5.13", features = ["derive"] }
+anyhow = "1.0.86"
