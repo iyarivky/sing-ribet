@@ -6,11 +6,11 @@ use anyhow::Result;
 #[derive(Parser)]
 #[command(author = "Iya Rivvikyn", version = "0.1.0", about = "sing-rivert \nv2ray to sing-box config converter", long_about = None)]
 struct Cli {
-    /// File input yang akan dibuka
+    /// File input
     #[clap(short, long)]
     file: String,
 
-    /// File output yang akan disimpan
+    /// File output
     #[clap(short, long)]
     output: Option<String>,
 }
