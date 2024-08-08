@@ -13,6 +13,9 @@ struct Cli {
     /// File output
     #[clap(short, long)]
     output: Option<String>,
+
+    #[clap(short, long)]
+    config_type: String
 }
 
 fn main() -> Result<()> {
